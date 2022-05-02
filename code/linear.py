@@ -35,43 +35,23 @@ class Linear:
         """
         Perform inference
         """
-        
         ### TODO: YOUR CODE HERE
-            
+
 
     def train_CFS(self, X, Y):
         """
         Build a vanilla linear regressor by closed-form solution.
         """
-
-        
         ### TODO: YOUR CODE HERE
 
     def train_ridge_CFS(self, X, Y):
         """
         Build a ridge regressor by closed-form solution.
         """
-        mean_x = mean(X)
-        mean_y = mean(Y)
-        for i in range (len(X)):
-            numer +=(X[i]-mean_x)*(Y[i]-mean_y)
-            denom +=(X[i]-mean_x)**2 
-        m = numer / denom
-        c=  mean_y - (m*mean_x)
-        
         ### TODO: YOUR CODE HERE
 
     def train_ridge_GD(self, X, Y):
         """
         Build a ridge regressor by gradient descent algorithm.
         """
-
-        mean_x = mean(X)
-        mean_y = mean(Y)
-        for i in range (len(X)):
-            numer +=(X[i]-mean_x)*(Y[i]-mean_y)
-            denom +=(X[i]-mean_x)**2 
-        m = numer / denom
-        c=  mean_y - (m*mean_x)
-        
         ### TODO: YOUR CODE HERE
