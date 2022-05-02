@@ -8,24 +8,35 @@ from matplotlib import pyplot
 
 import util
 
+
 def visRegressedLine(X, predicted_y, w):
-    ### TODO: YOUR CODE HERE
-    
+    # TODO: YOUR CODE HERE
+    pass
+
+
 def visClassifier(X, predicted_y, w):
-    ### TODO: YOUR CODE HERE
-    
+    # TODO: YOUR CODE HERE
+    pass
+
+
 def visLoss(loss):
-    ### TODO: YOUR CODE HERE
-    
+    # TODO: YOUR CODE HERE
+    pass
+
+
 def visLikelihood(likelihood):
-    ### TODO: YOUR CODE HERE
+    # TODO: YOUR CODE HERE
+    pass
+
 
 def computeClassificationAcc(org_y, predicted_y):
     '''
         Compute classification accuracy by counting how many predicted_y
         is the same to the org_y
     '''
-    ### TODO: YOUR CODE HERE
+    # TODO: YOUR CODE HERE
+    pass
+
 
 def computeAvgRegrMSError(org_y, predicted_y):
     '''
@@ -33,4 +44,5 @@ def computeAvgRegrMSError(org_y, predicted_y):
         and org_y. Use L2 distance between two values (each eleement 
         in the vector).
     '''
-    ### TODO: YOUR CODE HERE
+    # TODO: YOUR CODE HERE
+    pass
